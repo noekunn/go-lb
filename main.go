@@ -1,7 +1,6 @@
 package main
 
 import (
-	"context"
 	"flag"
 	"fmt"
 	"log"
@@ -9,7 +8,6 @@ import (
 	"net/http/httputil"
 	"net/url"
 	"strings"
-	"time"
 )
 
 // Global server pool
